@@ -107,18 +107,15 @@ class _MyHomePageState extends State<MyHomePage> {
                             SizedBox(
                               height: 10,
                             ),
-                            Text(
-                              'Grab our latest collection and get',
-                              style: TextStyle(
-                                color: Colors.white54,
-                                fontSize: 8,
-                              ),
-                            ),
-                            Text(
-                              'our special promo',
-                              style: TextStyle(
-                                color: Colors.white54,
-                                fontSize: 8,
+                            Container(
+                              width: 120,
+                              child: Text(
+                                'Grab our latest collection and get  our special promo',
+                                style: TextStyle(
+                                  fontSize: 8,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white54,
+                                ),
                               ),
                             ),
                             SizedBox(
